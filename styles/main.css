@@ -18,7 +18,7 @@ img {
 header{
     display:flex;
     align-items:center;
-    background-color: rgb(189, 213, 221);
+    background-color: rgb(216, 233, 238);
 }
 
 .mainheading{
@@ -102,7 +102,9 @@ footer{
     padding: 1em;
 }
 
-
+li{
+    text-align: left;
+}
 
 
 
