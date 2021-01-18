@@ -31,6 +31,7 @@ const fishCollection = [
     },
     {
         name: "Bart",
+        species: 'x',
         diet: "crustaceans",
         length: '25',
         location: 'round here'

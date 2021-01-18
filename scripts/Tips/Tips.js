@@ -7,14 +7,15 @@ export const Tip = (tips) => {
     for (let i=0; i<tips.length;i++){
     stuff += `
         <section class="tip card">
-        <h1 class="tip_sub">${tips[i].subHeading}</div>
+        <h1 class="tip_sub">${tips[i].subHeading}</h1>
         `
         for (let j=0; j<tips[i].tips.length; j++){
             stuff += 
             `<li class="tip__listItem">${tips[i].tips[j]}</li>
             `
-            stuff += `</section>`
+            
         }
+        stuff += `</section>`
     }
     console.log('here' + stuff)
     return stuff

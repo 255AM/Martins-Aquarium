@@ -2,7 +2,8 @@
 *{
     margin:0px;
     padding:0px;
-    font-family: Helvetica, Arial, sans-serif
+    font-family: Helvetica, Arial, sans-serif;
+    
 }
 
 main{
@@ -31,9 +32,11 @@ header{
     
 }
 
-.fishlist{
+#fishTarget{
+    display: flex;
     flex: 5;
     padding-left: 2em;
+    
 }
 
 aside{
@@ -49,8 +52,14 @@ aside{
 
 .fishcard{
     display: flex;
-    border: solid burlywood;
-    height: auto;
+    flex-flow: column;
+    margin: 1em;
+    padding: 1em;
+    border: 1px green solid
+}
+
+.fishList{
+    width:100%;
 }
 
 .fishnotes{
@@ -102,10 +111,23 @@ footer{
     padding: 1em;
 }
 
-li{
-    text-align: left;
+
+
+#tips{
+    
+    
+    height: auto;
 }
-
-
-
+.tip_sub{
+    
+    margin:1em;
+    padding:1em;
+}
+#tip__listItem{
+    
+}
+.tip{
+    padding:1em;
+    margin:1em;
+}
 
