@@ -1,26 +1,15 @@
-const fishCollection = [
-    {
-    name:'George',
-    img: "https://static.wikia.nocookie.net/pixar/images/1/1f/Dory-white.jpg/revision/latest?cb=20110924203518",
-    type: 'Beta Fish',
-    size: '2"',
-    origin: 'Galapagos Islands',
-    favorite_foods: 'Pretzels'
-},
-{
-    name:'George',
-    img: "https://static.wikia.nocookie.net/pixar/images/1/1f/Dory-white.jpg/revision/latest?cb=20110924203518",
-    type: 'Beta Fish',
-    size: '2"',
-    origin: 'Galapagos Islands',
-    favorite_foods: 'Pretzels'
-},
-{
-    name:'George',
-    img: "https://static.wikia.nocookie.net/pixar/images/1/1f/Dory-white.jpg/revision/latest?cb=20110924203518",
-    type: 'Beta Fish',
-    size: '2"',
-    origin: 'Galapagos Islands',
-    favorite_foods: 'Pretzels'
-}
-]
+import { useFish } from './Fish/FishDataProvider.js'
+import { FishList } from './Fish/FishList.js'
+import { LocationsList } from './Locations/LocationsList.js'
+import { tipList } from './Tips/TipList.js'
+
+
+// const allTheFish = useFish()
+
+// for (const fish of allTheFish) {
+//     console.log(fish)
+// }
+
+FishList()
+LocationsList()
+tipList()
