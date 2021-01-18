@@ -1,11 +1,11 @@
 let tipsCollection = [
     {
-    SubHeading : 'Salinity',
-    tips: ['keep it salty', 'dump some salt in there', 'salty,salty']
+    subHeading: 'Salinity',
+    tips: ['keep it salty', 'dump some salt in there', 'salty,salty', 'ticks']
     },
     {
-        Subheading : 'Temperature',
-        tips: ['Hot, Hot, Hot!', 'nit quite that hot', 'warmer though']
+    subHeading: 'Temperature',
+    tips: ['Hot,Hot!', 'nit quite that hot', 'warmer though']
     }
 ]
 
@@ -13,4 +13,3 @@ let tipsCollection = [
 export const useTips = () => {
     return tipsCollection.slice()
 }
-
