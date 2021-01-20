@@ -1,7 +1,7 @@
 /**
  *  Fish which renders individual fish objects as HTML
  */
-export const Fish = (fish) => {
+export const htmlFish = (fish) => {
     return `
         <section class="fishcard">
             <div class="fish__name">${fish.name}</div>
@@ -12,3 +12,4 @@ export const Fish = (fish) => {
         </section>
     `
 }
+
