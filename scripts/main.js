@@ -1,5 +1,5 @@
 import { useFish } from './Fish/FishDataProvider.js'
-import { FishList } from './Fish/FishList.js'
+import { FishList3, FishList5, FishListOther } from './Fish/FishList.js'
 import { LocationsList } from './Locations/LocationsList.js'
 import { tipList } from './Tips/TipList.js'
 
@@ -10,6 +10,8 @@ import { tipList } from './Tips/TipList.js'
 //     console.log(fish)
 // }
 
-FishList()
+FishList3()
+FishList5()
+FishListOther()
 LocationsList()
 tipList()
